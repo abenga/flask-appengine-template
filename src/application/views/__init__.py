@@ -25,11 +25,6 @@ def home():
   return render_template('home.html')
 
 
-def say_hello(username):
-  """Contrived example to demonstrate Flask's url routing capabilities"""
-  return 'Hello %s' % username
-
-
 def warmup():
   """App Engine warmup handler
   See http://code.google.com/appengine/docs/python/config/appconfig.html#Warming_Requests
