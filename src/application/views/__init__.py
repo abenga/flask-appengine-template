@@ -22,7 +22,7 @@ from application.forms import ExampleForm
 import passlib
 
 def home():
-  return render_template('list_examples.html')
+  return render_template('home.html')
 
 
 def say_hello(username):
